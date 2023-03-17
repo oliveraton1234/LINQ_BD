@@ -40,8 +40,6 @@ namespace Ejercicio_3
             textBoxPassword.Text = "";
             CmvEstado.Text = "";
             CmbTipoUsuario.Text = "";
-
-
         }
 
         private void Agregar_Usuario_FormClosed(object sender, FormClosedEventArgs e)
@@ -58,6 +56,11 @@ namespace Ejercicio_3
             datos.tipo_usuario = CmbTipoUsuario.SelectedItem.ToString();
             dataContext.usuarios.InsertOnSubmit(datos);
             dataContext.SubmitChanges();
+        }
+
+        private void Agregar_Usuario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -169,6 +169,7 @@
             this.Name = "Agregar_Usuario";
             this.Text = "Agregar_Usuario";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Agregar_Usuario_FormClosed);
+            this.Load += new System.EventHandler(this.Agregar_Usuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

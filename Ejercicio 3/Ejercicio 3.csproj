@@ -65,11 +65,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ejercicioDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregarTrabajadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarTrabajadores.Designer.cs">
+      <DependentUpon>FrmAgregarTrabajadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAgregarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmAgregarUsuario.Designer.cs">
       <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEliminarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEliminarTrabajador.Designer.cs">
+      <DependentUpon>FrmEliminarTrabajador.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEliminarUsuario.cs">
       <SubType>Form</SubType>
@@ -77,11 +89,23 @@
     <Compile Include="FrmEliminarUsuario.Designer.cs">
       <DependentUpon>FrmEliminarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListarTrabajadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListarTrabajadores.Designer.cs">
+      <DependentUpon>FrmListarTrabajadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmListarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmListarUsuario.Designer.cs">
       <DependentUpon>FrmListarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmmodificarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmmodificarTrabajador.Designer.cs">
+      <DependentUpon>FrmmodificarTrabajador.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -97,14 +121,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregarTrabajadores.resx">
+      <DependentUpon>FrmAgregarTrabajadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregarUsuario.resx">
       <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEliminarTrabajador.resx">
+      <DependentUpon>FrmEliminarTrabajador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminarUsuario.resx">
       <DependentUpon>FrmEliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmListarTrabajadores.resx">
+      <DependentUpon>FrmListarTrabajadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmListarUsuario.resx">
       <DependentUpon>FrmListarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmmodificarTrabajador.resx">
+      <DependentUpon>FrmmodificarTrabajador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmModificarUsuario.resx">
       <DependentUpon>FrmModificarUsuario.cs</DependentUpon>

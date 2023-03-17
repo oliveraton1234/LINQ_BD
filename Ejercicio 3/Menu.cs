@@ -58,5 +58,33 @@ namespace Ejercicio_3
             listar_Usuario.Show();
             this.Hide();
         }
+
+        private void agregarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAgregarTrabajadores frmAgregarTrabajadores = new FrmAgregarTrabajadores();
+            frmAgregarTrabajadores.Show();
+            this.Hide();
+        }
+
+        private void eliminarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEliminarTrabajador frmEliminarTrabajador = new FrmEliminarTrabajador();
+            frmEliminarTrabajador.Show();
+            this.Hide();
+        }
+
+        private void modificarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmmodificarTrabajador frmmodificarTrabajador = new FrmmodificarTrabajador();
+            frmmodificarTrabajador.Show();
+            this.Hide();
+        }
+
+        private void listarTrabajadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListarTrabajadores frmListarTrabajadores = new FrmListarTrabajadores();
+            frmListarTrabajadores.Show();
+            this.Hide();
+        }
     }
 }

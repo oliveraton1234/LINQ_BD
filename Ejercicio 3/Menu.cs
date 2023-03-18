@@ -86,5 +86,38 @@ namespace Ejercicio_3
             frmListarTrabajadores.Show();
             this.Hide();
         }
+
+        private void agregarTrabajadorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmAgregarSueldo frmAgregarSueldo = new FrmAgregarSueldo();
+            frmAgregarSueldo.Show();
+            this.Hide();
+        }
+
+        private void pagosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modificarPagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmModificarSueldo frmModificarSueldo = new FrmModificarSueldo();
+            frmModificarSueldo.Show();
+            this.Hide();
+        }
+
+        private void eliminarPagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmElimimarSueldo frmElimimarSueldo = new FrmElimimarSueldo();
+            frmElimimarSueldo.Show();
+            this.Hide();
+        }
+
+        private void listarPagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListarSueldo frmListarSueldo = new FrmListarSueldo();
+            frmListarSueldo.Show();
+            this.Hide();
+        }
     }
 }

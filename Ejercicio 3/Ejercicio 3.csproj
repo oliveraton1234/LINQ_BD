@@ -65,6 +65,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ejercicioDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregarSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarSueldo.Designer.cs">
+      <DependentUpon>FrmAgregarSueldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAgregarTrabajadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="FrmAgregarUsuario.Designer.cs">
       <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmElimimarSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmElimimarSueldo.Designer.cs">
+      <DependentUpon>FrmElimimarSueldo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEliminarTrabajador.cs">
       <SubType>Form</SubType>
@@ -89,6 +101,12 @@
     <Compile Include="FrmEliminarUsuario.Designer.cs">
       <DependentUpon>FrmEliminarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListarSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListarSueldo.Designer.cs">
+      <DependentUpon>FrmListarSueldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmListarTrabajadores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,12 @@
     </Compile>
     <Compile Include="FrmListarUsuario.Designer.cs">
       <DependentUpon>FrmListarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModificarSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModificarSueldo.Designer.cs">
+      <DependentUpon>FrmModificarSueldo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmmodificarTrabajador.cs">
       <SubType>Form</SubType>
@@ -121,11 +145,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregarSueldo.resx">
+      <DependentUpon>FrmAgregarSueldo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregarTrabajadores.resx">
       <DependentUpon>FrmAgregarTrabajadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregarUsuario.resx">
       <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmElimimarSueldo.resx">
+      <DependentUpon>FrmElimimarSueldo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEliminarTrabajador.resx">
       <DependentUpon>FrmEliminarTrabajador.cs</DependentUpon>
@@ -133,11 +163,17 @@
     <EmbeddedResource Include="FrmEliminarUsuario.resx">
       <DependentUpon>FrmEliminarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmListarSueldo.resx">
+      <DependentUpon>FrmListarSueldo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmListarTrabajadores.resx">
       <DependentUpon>FrmListarTrabajadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmListarUsuario.resx">
       <DependentUpon>FrmListarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModificarSueldo.resx">
+      <DependentUpon>FrmModificarSueldo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmmodificarTrabajador.resx">
       <DependentUpon>FrmmodificarTrabajador.cs</DependentUpon>

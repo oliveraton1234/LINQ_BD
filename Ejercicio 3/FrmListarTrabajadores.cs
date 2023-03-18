@@ -47,7 +47,7 @@ namespace Ejercicio_3
             foreach (var trabajador in lista)
             {
                 dataGridView1.Rows.Add(trabajador.id_trabajador, trabajador.nombre, trabajador.apellido_mat, trabajador.apellido_pat, trabajador.direccion, trabajador.direccion, trabajador.telefono, trabajador.num_empleado, trabajador.id_usuario, trabajador.id_puesto);
-                textBox1.Text = textBox1.Text + trabajador.id_trabajador + "  " + trabajador.nombre + "  " + trabajador.apellido_mat + "  " + trabajador.apellido_pat+ "  " + trabajador.direccion + "  " + trabajador.telefono + "  " + trabajador.num_empleado + "  " + trabajador.id_usuario + "  " + trabajador.id_puesto + Environment.NewLine;
+                textBox1.Text = textBox1.Text + trabajador.id_trabajador + "    " + trabajador.nombre + "    " + trabajador.apellido_mat + "    " + trabajador.apellido_pat+ "    " + trabajador.direccion + "    " + trabajador.telefono + "    " + trabajador.num_empleado + "    " + trabajador.id_usuario + "    " + trabajador.id_puesto + Environment.NewLine;
             }
         }
     }
